@@ -1,5 +1,4 @@
 [[redirects]]
 from = "/*"
-from = "./public/images"
 to = "./public/index.html"
 status = 200
