@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.3s;
+  scroll-padding-top: 90px;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Umumiy skroll tutgich */
+::-webkit-scrollbar {
+  width: 16px; /* Kengligi */
+  height: 12px; /* Pastki skroll uchun balandligi */
+  margin-right: 5px;
+}
+
+/* Skroll tutgichning track (orqa fon) qismi */
+::-webkit-scrollbar-track {
+  background: transparent; /* Orqa fon rangi */
+  border-radius: 10px;
+}
+
+/* Skroll tutgichning thumb (asosiy) qismi */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#21c998, #034747); /* Gradient rang */
+  border-radius: 10px; /* Burchaklarni yumaloqlash */
+  border: 3px solid  #fff; /* Track bilan o'ralgan joy */
+}
+
+/* Hoverda skroll tutgichning thumb (asosiy) qismi */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient( #21c998 ,#034747); /* Hover rang */
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn {
+  background: linear-gradient(90deg, #21c998, #034747);
+}
+.link-drop::before {
+  content: "";
+  width: 50px;
+  height: 30px;
+  border-top-left-radius: 10px, 10px;
+  position: absolute;
+  background: #353a40;
+  margin: 0 auto;
+  top: -25px;
+  transform: translateX(120px) ;
+}
+.link-drop2::before {
+  transform: translateX(50px) ;
+}
+.drop-left {
+  transform: translateX(-1000px);
+}
+.drop-right {
+  transform: translateX(0);
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- title -->
+  <title>Asliddin Norboyev</title>
+  <link rel="icon" href="./images/Title image/AN_logo.svg">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"  referrerpolicy="no-referrer" />
+  <!--styles  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+
+  <!-- backtop -->
+  <a href="#hero" class="fixed cursor-pointer bg-white rounded-full w-[50px] flex items-center justify-center h-[50px] bottom-8 right-8">
+    <i class="fa-solid fa-arrow-up-from-bracket text-xl"></i>
+  </a>
+
+  <!-- header start -->
+  <header class="py-5  top-0 bg-white z-10 sticky "  id="header">
+    <div class="max-w-[1200px] mx-auto px-8 flex justify-between items-center">
+      <button id="btn" class="flex lg:hidden border-none bg-transparent    hover:text-[#21c998]">
+        <i class="fa-solid fa-bars text-[25px]"></i>
+        <ul id="drop-left" class="drop-left absolute  w-[300px] bg-[#353a40] text-white  top-[90px]  rounded p-5 list-none">
+          <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+            <a class="font-semibold text-xl" href="#hero">Home</a>
+          </li>
+          <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+            <a class="font-semibold text-xl" href="#about">About</a>
+          </li>
+          <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+            <a class="font-semibold text-xl" href="#whatido">What I do</a>
+          </li>
+          <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+            <a class="font-semibold text-xl" href="#resume">Resume</a>
+          </li>
+          <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+            <a class="font-semibold text-xl" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+            <a class="font-semibold text-xl" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+      </button>
+      <a href="index.html" class="select-none cursor-pointer">
+        <img src="./images/header/AN.png" class="pointer-events-none" alt="header logo">
+      </a>
+      <ul class="hidden gap-7 items-center lg:flex">
+        <li>
+          <a class="font-semibold hover:text-[#21c998] text-xl" href="#hero">Home</a>
+        </li>
+        <li>
+          <a class="font-semibold hover:text-[#21c998] text-xl" href="#about">About</a>
+        </li>
+        <li>
+          <a class="font-semibold hover:text-[#21c998] text-xl" href="#whatido">What I do</a>
+        </li>
+        <li class="relative group">
+          <a class="font-semibold hover:text-[#21c998] text-xl" href="#resume">Resume</a>
+          <ul class="list-none hidden group-hover:grid absolute bg-[#353a40] text-white w-[300px] top-[50px] rounded -left-[100px]  p-5 link-drop">
+            <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+              <a href="#resume">My Education & My Experience</a>
+            </li>
+            <li class="hover:text-[#21c998] cursor-pointer">
+              <a href="#skills">Skills</a>
+            </li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <a class="font-semibold hover:text-[#21c998] text-xl" href="#portfolio">Portfolio</a>
+          <ul class="list-none hidden group-hover:grid absolute bg-[#353a40] text-white w-[150px] top-[50px] rounded -left-[20px]  p-5 link-drop link-drop2">
+            <li class="mb-3 hover:text-[#21c998] cursor-pointer">
+              <a href="#portfolio">My Works</a>
+            </li>
+            <li class="hover:text-[#21c998] cursor-pointer">
+              <a href="#awards">Awards</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="font-semibold hover:text-[#21c998] text-xl" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <a href="tel:+998946092401">
+        <i class="fa-solid fa-phone text-[25px] hover:text-[#21c998]"></i>
+      </a>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <main>
+    <!-- hero start -->
+    <section class="py-10 lg:py-20" id="hero">
+      <div class="max-w-[1200px] mx-auto px-8 grid lg:grid-cols-2 lg:flex items-center ">
+        <div class="max-w-[650px]">
+          <h2 class="font-medium lg:font-[700] text-3xl lg:text-4xl">I am Asliddin</h2>
+          <h1 style="background-image: linear-gradient(75deg, #21c998,  #034747); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" class="font-semibold text-4xl lg:text-6xl mb-5 lg:mb-7">Frontend Developer</h1>
+          <p class="opacity-[70%] text-xs lg:text-xl mb-7">I can help you build website for your business at an affordable price, and I make website look beautiful and easy to use, you can find out about me here.</p>
+          <div class="flex gap-5 asliddin mb-5">
+            <div class=" w-10 h-10 flex  justify-center items-center rounded-full" style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.75); background-image: linear-gradient(45deg, #21c998, #034747);">
+              <a target="_blank" href="https://www.instagram.com/asliddin.norboyev_/">
+                <i class="text-xl fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class=" w-10 h-10 flex  justify-center items-center rounded-full" style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.75); background-image: linear-gradient(45deg, #21c998, #034747);">
+              <a target="_blank" href="https://t.me/asliddin_it_blog">
+                <i class="text-xl fa-brands fa-telegram"></i>
+              </a>
+            </div>
+            <div class=" w-10 h-10 flex  justify-center items-center rounded-full" style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.75); background-image: linear-gradient(45deg, #21c998, #034747); ">
+              <a target="_blank" href="https://www.youtube.com/@AsliddinNorboyev_blog">
+                <i class="text-xl fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div class=" w-10 h-10 flex  justify-center items-center rounded-full" style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.75); background-image: linear-gradient(45deg, #21c998, #034747);">
+              <a target="_blank" href="https://www.linkedin.com/in/asliddin-rashidovich-774624336/">
+                <i class="text-xl fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <button id="download_CV" class="btn px-7 py-3 rounded-[30px] text-white cursor-pointer">Download CV <i class="fa-solid fa-download"></i></button>
+        </div>
+        <div class="max-w-[800px] lg:max-w-[600px] max-h-[800px] lg:max-h-[600px]  mx-auto rounded-full order-[-1] lg:order-none select-none mb-10 lg:mb-0">
+          <img src="./images/hero/hero_img.png" alt="hero img" class="w-full h-full rounded-full object-cover pointer-events-none"  >
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- about start -->
+    <section id="about" class="bg-[#212429] py-10 lg:py-20">
+      <div class="max-w-[1200px] mx-auto px-8">
+        <h2 class="text-center text-3xl lg:text-5xl font-semibold text-white mb-3">About Me</h2>
+        <div class="w-[100px] lg:w-[150px] h-1 rounded-full mx-auto bg-[#21c998] mb-10 lg:mb-20"></div>
+        <div class="block lg:flex justify-between gap-[50px]">
+          <div class="max-w-[800px] mx-auto lg:mx-0 mb-10 lg:mb-0">
+            <h3 class="text-white text-center lg:text-start text-2xl lg:text-4xl font-medium lg:font-semibold mb-5">I am <span class="text-[#21c998]">Asliddin Norboyev Rashidovich, </span><br> a Web developer</h3>
+            <p class="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%] mb-3 lg:mb-5">I was born on January 24, 2006 in a small town in the Zjarkurgan district of the Surkhandarya region of the Republic of Uzbekistan. My main profession is programming.</p>
+            <p class="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%]">I am interested in the digital technology and I am constantly trying to learn technologies that will be useful to humanity.</p>
+          </div>
+          <div class="lg:max-w-[400px] w-full ">
+            <h4 class="my-3 text-white text-[14px] lg:text-[16px]">Name: Asliddin Norboyev</h4>
+            <div class="w-full h-[1px] bg-[#555]"></div>
+            <h4 class="text-white text-[14px] lg:text-[16px] my-3">Tel: <a href="tel:+998946092401" class="text-[#21c998]">+998946092401</a></h4>
+            <div class="w-full h-[1px] bg-[#555]"></div>
+            <h4 class="text-white text-[14px] lg:text-[16px] my-3">Age: 18</h4>
+            <div class="w-full h-[1px] bg-[#555]"></div>
+            <h4 class="text-white text-[14px] lg:text-[16px] mt-3 mb-8" >From: O'zbekiston, Surxondaryo</h4>
+            <button id="download_CV" class="btn px-7 py-3 rounded-[30px] text-white cursor-pointer">Download CV <i class="fa-solid fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- what I do start-->
+    <section id="whatido" class="bg-[#353a40] py-10 lg:py-20">
+      <div class="max-w-[1200px] mx-auto px-8">
+        <h2 class="text-center text-3xl lg:text-5xl font-semibold text-white mb-3">What I Do</h2>
+        <div class="w-[100px] lg:w-[150px] h-1 rounded-full mx-auto bg-[#21c998] mb-10 lg:mb-20"></div>
+        <div class="grid justify-center gap-10 grid-cols-1 lg:grid-cols-2">
+          <div class="flex items-start gap-5 lg:max-w-[500px] w-full">
+            <div class="min-w-[80px] h-[80px] rounded bg-[#212429] flex justify-center items-center">
+              <i class="fa-solid fa-palette text-[#21c998] text-3xl"></i>
+            </div>
+            <div>
+              <h4 class="text-white text-xl font-medium mb-4">Web Design</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I have some experiense in Web Design. Not bad for me</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-5 max-w-[500px] w-full">
+            <div class="min-w-[80px] h-[80px] rounded bg-[#212429] flex justify-center items-center">
+              <i class="fa-solid fa-desktop text-[#21c998] text-3xl"></i>
+            </div>
+            <div>
+              <h4 class="text-white text-xl font-medium mb-4">Web Development</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I have extensive experience in web development and this is my main field. I have the most important skills needed in it.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-5 max-w-[500px] w-full">
+            <div class="min-w-[80px] h-[80px] rounded bg-[#212429] flex justify-center items-center">
+              <i class="fa-solid fa-pen-nib text-[#21c998] text-3xl"></i>
+            </div>
+            <div>
+              <h4 class="text-white text-xl font-medium mb-4">Graphic design</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I have a background in graphic design, where I can do some beautiful projects.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-5 max-w-[500px] w-full">
+            <div class="min-w-[80px] h-[80px] rounded bg-[#212429] flex justify-center items-center">
+              <i class="fa-solid fa-video text-[#21c998] text-3xl"></i>
+            </div>
+            <div>
+              <h4 class="text-white text-xl font-medium mb-4">Video Editing</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I am very good at video editing. I can work in Premiere Pro and make beautiful videos.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- what I do end-->
+
+    <!-- Resume start -->
+    <section id="resume" class="bg-[#212429] py-10 lg:py-20">
+      <!-- experience start -->
+      <div id="experience" class="max-w-[1200px] mx-auto px-8 pb-10 lg:pb-20">
+        <h2 class="text-center text-3xl lg:text-5xl font-semibold text-white mb-3">Resume</h2>
+        <div class="w-[100px] lg:w-[150px] h-1 rounded-full mx-auto bg-[#21c998] mb-10 lg:mb-20"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div>
+            <div class="flex items-center gap-4 mb-5">
+              <i class="fa-solid fa-graduation-cap fa-2xl text-[#21c998]"></i>
+              <h3 class="text-white font-semibold text-3xl lg:text-4xl ">My Education</h3>
+            </div>
+            <div class="bg-[#111419] hover:scale-[105%] cursor-pointer rounded-[10px] mb-8 p-6">
+              <h4 class="text-[#21c998] text-xl lg:text-2xl font-semibold mb-3">2013 - 2024</h4>
+              <h4 class="text-white text-2xl font-semibold mb-5">School 19 in Surkhandarya Zharkurgan district</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I learned basic knowledge at school and made many friends.</p>
+            </div>
+            <div class="bg-[#111419] hover:scale-[105%] cursor-pointer rounded-[10px] mb-8 p-6">
+              <h4 class="text-[#21c998] text-xl lg:text-2xl font-semibold mb-3">2024 - 2024</h4>
+              <h4 class="text-white text-2xl font-semibold mb-5">IT Park in Zharkurgan district</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I learned the basics of programming, algorithms, and the basics of frontend programming in there.</p>
+            </div>
+            <div class="bg-[#111419] hover:scale-[105%] cursor-pointer rounded-[10px] mb-8 p-6">
+              <h4 class="text-[#21c998] text-xl lg:text-2xl font-semibold mb-3">2024 - ...</h4>
+              <h4 class="text-white text-2xl font-semibold mb-5">Najot Ta'lim</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I'm learning web programming there from professional teachers.</p>
+            </div>
+            <div class="bg-[#111419] hover:scale-[105%] cursor-pointer rounded-[10px] p-6">
+              <h4 class="text-[#21c998] text-xl lg:text-2xl font-semibold mb-3">2024 - ...</h4>
+              <h4 class="text-white text-2xl font-semibold mb-5">Tashkent State University of Economics</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I am studying world economics, economic studies, and business management there.</p>
+            </div>
+          </div>
+          <div>
+            <div class="flex items-center gap-4 mb-5">
+              <i class="fa-solid fa-trophy fa-2xl text-[#21c998]"></i>
+              <h3 class="text-white font-semibold text-3xl lg:text-4xl ">My Experience</h3>
+            </div>
+            <div class="bg-[#111419] hover:scale-[105%] cursor-pointer rounded-[10px] mb-8 p-6">
+              <h4 class="text-[#21c998] text-xl lg:text-2xl font-semibold mb-3">2024 - 2024</h4>
+              <h4 class="text-white text-2xl font-semibold mb-5">Frontend projects, Mentoring</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I taught web programming to many students in there.</p>
+            </div>
+            <div class="bg-[#111419] hover:scale-[105%] cursor-pointer rounded-[10px] mb-8 p-6">
+              <h4 class="text-[#21c998] text-xl lg:text-2xl font-semibold mb-3">2024 - ...</h4>
+              <h4 class="text-white text-2xl font-semibold mb-5">Freelance</h4>
+              <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I work with clients remotely from freelancer sites.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- experience end -->
+
+      <!-- scills start -->
+      <div id="skills" class="max-w-[1200px] mx-auto px-8">
+        <h3 class="text-white font-semibold text-4xl text-center mb-10">Scills</h3>
+        <div class="flex justify-center flex-wrap gap-x-8 gap-y-8">
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer  bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/html.png" alt="html logo" class="w-[50px] md:w-[75px]">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer  bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/css.png" alt="html logo" class="w-[50px] md:w-[75px]  select-none">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/react.png" alt="html logo" class="w-[50px] md:w-[75px] select-none">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/java-script.png" alt="html logo" class="w-[50px] md:w-[75px] select-none">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/git.png" alt="html logo" class="w-[50px] md:w-[75px] select-none">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/figma.png" alt="html logo" class="w-[50px] md:w-[75px] select-none">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/bootstrap.png" alt="html logo" class="w-[50px] md:w-[75px] select-none text-white rounded-[10px] opacity-1">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/tailwind.png" alt="html logo" class="w-[50px] md:w-[75px] select-none bg-white rounded-[10px]">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/sass.png" alt="html logo" class="w-[50px] md:w-[75px] select-none  rounded-[10px]">
+          </div>
+          <div class="w-[100px] h-[100px] md:w-[200px] md:h-[200px] hover:scale-[110%] cursor-pointer bg-[#111419] rounded-[10px] flex justify-center items-center">
+            <img src="./images/scills/webpack.webp" alt="html logo" class="w-[50px] md:w-[75px] select-none bg-white  rounded-[10px]">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- scills end -->
+    <!-- Resume end -->
+
+
+    <!-- portfoliyo start -->
+    <section id="portfolio" class="bg-[#353a40] py-10 lg:py-20">
+      <!-- my works -->
+      <div id="myworks"  class="max-w-[1200px] mx-auto px-8  pb-10 lg:pb-20">
+        <h2 class="text-center text-3xl lg:text-5xl font-semibold text-white mb-3">Portfolio</h2>
+        <div class="w-[100px] lg:w-[150px] h-1 rounded-full mx-auto bg-[#21c998] mb-10 lg:mb-20"></div>
+        <h3 class="text-white font-semibold text-3xl lg:text-4xl mb-5">My Works</h3>
+        <div class="grid lg:grid-cols-2  gap-10">
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site1.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://dashing-macaron-fe5e9c.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site3.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://tailwindcss-regim.vercel.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site12.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://animated-taffy-e65102.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site2.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://leangrouptemplate.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site8.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://remarkable-queijadas-4b20c0.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site10.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://bootstrap5pglazzom.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site13.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://iridescent-zuccutto-55f28a.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+          <div class="relative overflow-hidden group rounded-[10px]">
+            <img src="./images/potfoliyo/site5.png" alt="Image" class="w-full h-full transition duration-300 ease-in-out group-hover:blur-sm">
+            <a target="_blank" href="https://htmlcss1212.netlify.app/" class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black  rounded bg-opacity-[40%]  opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+              Go to website
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- my awards -->
+      <div id="awards" class="max-w-[1200px] mx-auto px-8">
+        <h3 class="text-white font-semibold text-4xl text-center mb-10">Awards</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h4 class="text-white text-2xl font-semibold mb-5">Finalist of the Republican Mathematics Olympiad </h4>
+            <p class="text-white opacity-[50%] text-[14px] lg:text-[16px]">I participated in the Republican Mathematics Olympiad organized by PDP University & IT Park in 2023. I scored high points and became a participant in the final stage. In addition, I have participated in many competitions in Chess and Mathematics and have won many competitions.</p>
+          </div>
+          <img src="./images/awards/certificateFinal.png" class="rounded-[20px] w-full" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- portfoliyo end -->
+
+    <!-- contact start -->
+    <section id="contact" class="bg-[#212429] py-10 lg:py-20">
+      <div class="max-w-[1200px] mx-auto px-8">
+        <h2 class="text-center text-3xl lg:text-5xl font-semibold text-white mb-3">Contact</h2>
+        <div class="w-[100px] lg:w-[150px] h-1 rounded-full mx-auto bg-[#21c998] mb-10 lg:mb-20"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10570.299466556897!2d67.40435316320287!3d37.48095780203195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1730794326037!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-[20px] w-full"></iframe>
+          <div>
+            <h3 class="text-white text-2xl font-semibold mb-10">Address</h3>
+            <a target="_blank" href="https://maps.app.goo.gl/ufTf85dWUk2HqsQy6" class="flex gap-3 my-5 items-start">
+              <div class="w-[50px] h-[50px] flex items-center justify-center bg-[#111419] rounded ">
+                <i class="fa-solid fa-location-dot text-xl text-[#21c998]  "></i>
+              </div>
+              <h3 class="text-[14px] lg:text-[16px]">
+                <span class="text-[#21c998]">Location:</span><br>
+                <span class="text-white opacity-[50%]">1th Floor, Plat No.1, 14-O'zar Street, Choshtepa, Toshkent</span>
+              </h3>
+            </a>
+            <div class="w-full h-[1px] bg-[#555]"></div>
+            <a target="_blank" href="tel:+998946092401" class="flex gap-3 my-5 items-start">
+              <div class="w-[50px] h-[50px] flex items-center justify-center bg-[#111419] rounded ">
+                <i class="fa-solid fa-phone text-xl text-[#21c998]  "></i>
+              </div>
+              <h3 class="text-[14px] lg:text-[16px]">
+                <span class="text-[#21c998]">Phone:</span><br>
+                <span class="text-white opacity-[50%]">+998-94-609-24-01</span>
+              </h3>
+            </a>
+            <div class="w-full h-[1px] bg-[#555]"></div>
+            <a target="_blank" href="mailto:asliddinrashidovich7@gmail.com" class="flex gap-3 mt-5 mb-10 items-start">
+              <div class="w-[50px] h-[50px] flex items-center justify-center bg-[#111419] rounded ">
+                <i class="fa-solid fa-envelope text-xl text-[#21c998]  "></i>
+              </div>
+              <h3 class="text-[14px] lg:text-[16px]">
+                <span class="text-[#21c998]">Email:</span><br>
+                <span class="text-white opacity-[50%]">asliddinrashidovich7@gmail.com</span>
+              </h3>
+            </a>
+
+            <h3 class="text-white text-2xl font-semibold mb-5">Follow Me</h3>
+            <div class="flex justify-center lg:justify-start gap-10 lg:gap-5">
+              <a target="_blank" href="https://www.instagram.com/asliddin.norboyev_/" class="w-[75px] h-[75px] lg:w-[50px] lg:h-[50px] flex items-center justify-center bg-[#111419] rounded-full" style=" background-image: linear-gradient(45deg, #21c998, #034747);">
+                <i class="fa-brands fa-instagram text-white text-4xl lg:text-2xl"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=61568348277987" class="w-[75px] h-[75px] lg:w-[50px] lg:h-[50px] flex items-center justify-center bg-[#111419] rounded-full" style=" background-image: linear-gradient(45deg, #21c998, #034747);">
+                <i class="fa-brands fa-facebook  text-white text-4xl lg:text-2xl"></i>
+              </a>
+              <a target="_blank" href="https://www.youtube.com/@AsliddinNorboyev_blog" class="w-[75px] h-[75px] lg:w-[50px] lg:h-[50px] flex items-center justify-center bg-[#111419] rounded-full" style=" background-image: linear-gradient(45deg, #21c998, #034747);">
+                <i class="fa-brands fa-youtube text-white text-4xl lg:text-2xl"></i>
+              </a>
+              <a target="_blank" href="https://t.me/asliddin_it_blog" class="w-[75px] h-[75px] lg:w-[50px] lg:h-[50px] flex items-center justify-center bg-[#111419] rounded-full" style=" background-image: linear-gradient(45deg, #21c998, #034747);">
+                <i class="fa-brands fa-telegram text-white text-4xl lg:text-2xl"></i>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/asliddin-rashidovich-774624336/" class="w-[75px] h-[75px] lg:w-[50px] lg:h-[50px] flex items-center justify-center bg-[#111419] rounded-full" style=" background-image: linear-gradient(45deg, #21c998, #034747);">
+                <i class="fa-brands fa-linkedin text-white text-4xl lg:text-2xl"></i>
+              </a>
+              <a target="_blank" href="https://github.com/asliddinrashidovich" class="w-[75px] h-[75px] lg:w-[50px] lg:h-[50px] flex items-center justify-center bg-[#111419] rounded-full" style=" background-image: linear-gradient(45deg, #21c998, #034747);">
+                <i class="fa-brands fa-github text-white text-4xl lg:text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <section class="bg-[#111419] py-5">
+      <div class="max-w-[1200px] flex items-center justify-between mx-auto px-8">
+        <a href="index.html">
+          <img src="./images/footer/AN_footer.png" class="w-[75px]" alt="footer image">
+        </a>
+        <a href="tel:+998946092401">
+          <i class="fa-solid fa-phone text-[25px] text-white"></i>
+        </a>
+      </div>
+    </section>
+    <!-- footer end -->
+
+    <script src="../src/index.js"></script>
+  </main>
+</body>
+</html>
